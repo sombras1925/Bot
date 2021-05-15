@@ -8,19 +8,19 @@ const {
 const apivhtear = 'apivhtear';
 const apibarbar = 'apibarbar';
 const tobzkey = 'apitobz';
-const BotName = 'XandãoBot'; 
+const BotName = 'SombrasBot'; 
 const instagram = 'http://www.instagram.com/'; 
 const aktif = '08:00 - 22:00';
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n' 
-            + 'FN:Meliodas\n' // Nama kamu
+            + 'FN:Sombras\n' // Nama kamu
             + 'ORG:Lexa;\n' // Nama bot
-            + 'TEL;type=CELL;type=VOICE;waid=5589981210976:+55 89 981210976\n' //Nomor whatsapp kamu
+            + 'TEL;type=CELL;type=VOICE;waid=994405380645:+994 40 538 06 45\n' //Nomor whatsapp kamu
             + 'END:VCARD'
-prefix = '*'
+prefix = '.'
 blocked = []
 limitawal = '999999999'
-cr = '*Meliodas*'
+cr = '*Sombras*'
 
 /*********** LOAD FILE ***********/
 const _leveling = JSON.parse(fs.readFileSync('./database/group/leveling.json'))
